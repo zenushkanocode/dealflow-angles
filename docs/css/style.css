@@ -1,0 +1,71 @@
+
+:root {
+  --bg: #0b0d10;
+  --panel: #14181f;
+  --card: #1a2029;
+  --text: #e8eef7;
+  --muted: #9aa8bc;
+  --accent: #6ee7b7;
+  --fund: #fbbf24;
+  --launch: #60a5fa;
+  --news: #c084fc;
+  --border: #2a3340;
+  --danger: #f87171;
+  font-family: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); line-height: 1.5; }
+a { color: var(--accent); }
+.wrap { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
+.site-header { border-bottom: 1px solid var(--border); background: var(--panel); padding: 1rem 0; margin-bottom: 1.5rem; }
+.logo { font-weight: 700; font-size: 1.25rem; text-decoration: none; color: var(--text); }
+.tag { color: var(--muted); margin: 0.25rem 0 0.75rem; font-size: 0.9rem; }
+nav a { margin-right: 1rem; color: var(--muted); text-decoration: none; }
+nav a:hover { color: var(--accent); }
+.hero h1 { margin: 0 0 0.5rem; font-size: 1.75rem; }
+.tz { font-size: 0.85rem; color: var(--muted); font-weight: 500; }
+.counts { color: var(--muted); }
+.note, .gaps { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
+.gaps ul { margin: 0.5rem 0 0; padding-left: 1.2rem; color: var(--danger); }
+.board { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1rem 0 2rem; }
+.col { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 0.75rem; min-height: 200px; }
+.col h2 { font-size: 1rem; margin: 0 0 0.75rem; display: flex; justify-content: space-between; align-items: center; }
+.col[data-lane-col="fundraises"] h2 { color: var(--fund); }
+.col[data-lane-col="launches"] h2 { color: var(--launch); }
+.col[data-lane-col="tech_news"] h2 { color: var(--news); }
+.count { background: var(--bg); color: var(--text); border-radius: 999px; padding: 0.1rem 0.55rem; font-size: 0.8rem; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 0.85rem; margin-bottom: 0.75rem; }
+.card-head h3 { font-size: 0.98rem; margin: 0.4rem 0; line-height: 1.35; }
+.card-head h3 a { color: var(--text); text-decoration: none; }
+.card-head h3 a:hover { color: var(--accent); }
+.meta { display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; font-size: 0.75rem; color: var(--muted); }
+.lane-pill { background: var(--bg); border-radius: 999px; padding: 0.15rem 0.5rem; }
+.badge { border-radius: 4px; padding: 0.1rem 0.35rem; font-size: 0.7rem; background: #243041; }
+.badge.money { color: var(--fund); }
+.conf-high { color: var(--accent); }
+.conf-medium { color: var(--launch); }
+.conf-low { color: var(--muted); }
+.source { font-size: 0.8rem; color: var(--muted); margin: 0.25rem 0; }
+.why { font-size: 0.88rem; margin: 0.5rem 0; }
+.angles { margin-top: 0.5rem; font-size: 0.85rem; }
+.angles summary { cursor: pointer; color: var(--accent); }
+.angle-block { margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px dashed var(--border); }
+.angle-block h4 { margin: 0 0 0.35rem; font-size: 0.9rem; }
+.label { color: var(--muted); font-size: 0.75rem; margin: 0.4rem 0 0.2rem; text-transform: uppercase; letter-spacing: 0.04em; }
+pre.copyable { white-space: pre-wrap; background: var(--bg); border-radius: 8px; padding: 0.65rem; margin: 0; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 0.8rem; }
+.thread { margin: 0.25rem 0 0 1.1rem; padding: 0; }
+.carousel { display: grid; gap: 0.4rem; }
+.slide { background: var(--bg); border-radius: 8px; padding: 0.5rem 0.65rem; font-size: 0.82rem; }
+.sn { display: inline-block; width: 1.2rem; color: var(--accent); font-weight: 700; }
+.empty { color: var(--muted); font-size: 0.85rem; }
+.mobile-tabs { display: none; gap: 0.4rem; margin-bottom: 0.75rem; }
+.mobile-tabs button { flex: 1; background: var(--panel); border: 1px solid var(--border); color: var(--muted); padding: 0.55rem; border-radius: 8px; cursor: pointer; }
+.mobile-tabs button.active { color: var(--text); border-color: var(--accent); }
+.archive-list { line-height: 1.9; }
+.site-footer { border-top: 1px solid var(--border); padding: 1.5rem 0 2.5rem; color: var(--muted); font-size: 0.85rem; }
+@media (max-width: 900px) {
+  .board { grid-template-columns: 1fr; }
+  .mobile-tabs { display: flex; }
+  .col { display: none; }
+  .col.active { display: block; }
+}
