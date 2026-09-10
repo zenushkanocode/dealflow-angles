@@ -619,18 +619,18 @@ def _layout(title: str, body: str, nav_extra: str = "", base: str = ".", current
         "<head>\n"
         '  <meta charset="utf-8" />\n'
         '  <meta name="viewport" content="width=device-width, initial-scale=1" />\n'
-        "  <title>" + _esc(title) + " · dealflow-angles</title>\n"
+        "  <title>" + _esc(title) + " · flowD</title>\n"
         '  <meta name="description" content="Free dated content war room: Fundraises, Launches, Tech news to X, LinkedIn, Instagram angles. No paid APIs." />\n'
         '  <link rel="stylesheet" href="' + base + '/css/style.css" />\n'
         "</head>\n"
         "<body>\n"
         '  <header class="site-header">\n'
         '    <div class="wrap header-row">\n'
-        '      <a class="logo" href="' + base + '/index.html">dealflow-angles</a>\n'
+        '      <a class="logo" href="' + base + '/index.html">flowD</a>\n'
         '      <nav class="header-nav">' + nav_extra + "\n"
         '        <a href="' + base + '/index.html"' + today_cls + ">Today</a>\n"
         '        <a href="' + base + '/archive/index.html"' + archive_cls + ">Archive</a>\n"
-        '        <a href="https://github.com/zenushkanocode/dealflow-angles">GitHub</a>\n'
+        '        <a href="https://github.com/zenushkanocode/flowD">GitHub</a>\n'
         "      </nav>\n"
         "    </div>\n"
         '    <div class="howto-strip">\n'

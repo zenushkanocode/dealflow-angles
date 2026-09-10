@@ -13,7 +13,7 @@ import feedparser
 import yaml
 
 IST = timezone(timedelta(hours=5, minutes=30))
-USER_AGENT = "dealflow-angles/1.0 (+https://github.com/zenushkanocode/dealflow-angles; free OSS)"
+USER_AGENT = "flowD/1.0 (+https://github.com/zenushkanocode/flowD; free OSS)"
 
 
 def load_config(path: str = "config/feeds.yaml") -> dict:

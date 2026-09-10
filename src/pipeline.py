@@ -99,7 +99,7 @@ def run(
 
 
 def main() -> None:
-    p = argparse.ArgumentParser(description="dealflow-angles daily pipeline")
+    p = argparse.ArgumentParser(description="flowD daily pipeline")
     p.add_argument("--since-days", type=int, default=180)
     p.add_argument("--max-per-feed", type=int, default=50)
     p.add_argument("--skip-fetch", action="store_true")
