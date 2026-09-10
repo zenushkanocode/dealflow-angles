@@ -91,7 +91,16 @@ Enable the Action under **Actions** tab if workflows are restricted on a new rep
 
 ## Daily Action
 
-`.github/workflows/daily.yml`
+Workflow source: [`templates/daily.yml`](templates/daily.yml).
+
+The initial push token **cannot create** `.github/workflows/*` (GitHub requires OAuth `workflow` scope). Enable in ~30s:
+
+1. GitHub → **Add file** → create `.github/workflows/daily.yml`
+2. Paste contents of `templates/daily.yml` → commit (to this branch or `main`)
+3. **Actions** tab → enable workflows if prompted
+4. Run **Daily dealflow-angles** → **Run workflow**
+
+Once on `main`, the workflow:
 
 - Cron: `30 1 * * *` UTC (~07:00 IST)
 - Also `workflow_dispatch` + push path filters
@@ -106,14 +115,15 @@ Enable the Action under **Actions** tab if workflows are restricted on a new rep
 ## Project layout
 
 ```
-config/feeds.yaml     # free RSS sources + lane keywords
-src/fetch_rss.py      # polite fetch + normalize
-src/classify.py       # heuristics
+config/feeds.yaml      # free RSS sources + lane keywords
+src/fetch_rss.py       # polite fetch + normalize
+src/classify.py        # heuristics
 src/generate_angles.py
-src/build_site.py     # docs/ static site
-src/pipeline.py       # CLI entry: python -m src.pipeline
-data/seed_items.json  # BIG public backfill
-docs/                 # GitHub Pages root
+src/build_site.py      # docs/ static site
+src/pipeline.py        # CLI entry: python -m src.pipeline
+data/seed_items.json   # BIG public backfill
+docs/                  # GitHub Pages root
+templates/daily.yml    # copy → .github/workflows/daily.yml
 ```
 
 ## Ethics / accuracy
