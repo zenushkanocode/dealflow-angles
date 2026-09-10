@@ -1,5 +1,5 @@
 {
-  "generated_at_ist": "2026-09-10T12:01:28.408997+05:30",
+  "generated_at_ist": "2026-09-10T12:13:41.093855+05:30",
   "view_date": "2026-09-10",
   "counts": {
     "fundraises": 9,
@@ -11,53 +11,14 @@
       "feed": "venturebeat",
       "name": "VentureBeat",
       "error": "fetch failed for https://venturebeat.com/feed/: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "feed": "skip_fetch",
+      "name": "live fetch",
+      "error": "skipped (--skip-fetch); using seed/cache"
     }
   ],
   "items": [
-    {
-      "id": "818e33499177cf2a",
-      "title": "Grab Is Said in Talks to Buy SoftBank-Backed Fintech Firm Atome",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-10/grab-is-said-in-talks-to-buy-softbank-backed-fintech-firm-atome",
-      "source": "Bloomberg Technology",
-      "source_id": "bloomberg_tech",
-      "published": "2026-09-10T05:51:33+00:00",
-      "summary": "Grab Holdings Ltd., the biggest ride-hailing and food-delivery firm in Southeast Asia, is in talks to buy a majority stake in Singapore-based buy-now-pay-later platform Atome Financial, according to people familiar with the matter.",
-      "feed_lanes": [
-        "fundraises",
-        "tech_news"
-      ],
-      "lane": "tech_news",
-      "lane_label": "Tech news",
-      "confidence": "medium",
-      "money": null,
-      "series": null,
-      "company": null,
-      "why_it_matters": "Market move around This player — useful for positioning, narrative, or timing your own push.",
-      "angles": {
-        "x": {
-          "hook": "Grab Is Said in Talks to Buy SoftBank-Backed Fintech Firm Atome\n\n3 beats for founders who actually ship.",
-          "thread": [
-            "1/ Signal: Grab Is Said in Talks to Buy SoftBank-Backed Fintech Firm Atome",
-            "2/ Second-order: who gains distribution, who loses the default story.",
-            "3/ Content play: explain the shift in plain English for your ICP — be the translator.",
-            "4/ Internal: update one slide / one landing line if this touches your category.",
-            "5/ Save this if you're batching content — tomorrow's \"hot take\" is today's calm brief."
-          ]
-        },
-        "linkedin": "Market brief for builders: Grab Is Said in Talks to Buy SoftBank-Backed Fintech Firm Atome\n\nMarket move around This player — useful for positioning, narrative, or timing your own push.\n\nMy default response isn't a hot take — it's a translation:\nWhat changed → who cares → what we say differently on the site / in sales / on social.\n\nSource: https://www.bloomberg.com/news/articles/2026-09-10/grab-is-said-in-talks-to-buy-softbank-backed-fintech-firm-atome\n\nOperators: which part of this actually touches your roadmap?",
-        "instagram": {
-          "reel_hook": "tech news that actually changes your caption strategy: Grab Is Said in Talks to Buy SoftBank-Backed Fintech…",
-          "carousel": [
-            "hook: Grab Is Said in Talks to Buy SoftBank-Backed Fintech Firm Atome",
-            "don't panic-post. translate: what changed → who cares → what you say differently.",
-            "cheeky reminder: hot takes age like milk. teaching posts age like… slightly better milk.",
-            "numbers > vibes when you can find them. otherwise: clear POV + one CTA.",
-            "comment ANGLE if you want this turned into a reel script + 5-slide pack."
-          ],
-          "voice": "@zenushkascut"
-        }
-      }
-    },
     {
       "id": "ffe14474407da312",
       "title": "Grab Is Said in Talks to Buy SoftBank-Backed Fintech Firm Atome",
@@ -106,13 +67,13 @@
       }
     },
     {
-      "id": "58a5d11a13c9ab59",
-      "title": "TSMC Revenue Rises 53% as AI Chip Demand Outstrips Supply",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-10/tsmc-revenue-rises-53-as-ai-chip-demand-outstrips-supply",
+      "id": "818e33499177cf2a",
+      "title": "Grab Is Said in Talks to Buy SoftBank-Backed Fintech Firm Atome",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/grab-is-said-in-talks-to-buy-softbank-backed-fintech-firm-atome",
       "source": "Bloomberg Technology",
       "source_id": "bloomberg_tech",
-      "published": "2026-09-10T05:35:24+00:00",
-      "summary": "Taiwan Semiconductor Manufacturing Co. reported a 53.3% increase in monthly sales, with the company struggling to meet overwhelming demand from the global AI infrastructure buildout.",
+      "published": "2026-09-10T05:51:33+00:00",
+      "summary": "Grab Holdings Ltd., the biggest ride-hailing and food-delivery firm in Southeast Asia, is in talks to buy a majority stake in Singapore-based buy-now-pay-later platform Atome Financial, according to people familiar with the matter.",
       "feed_lanes": [
         "fundraises",
         "tech_news"
@@ -126,20 +87,20 @@
       "why_it_matters": "Market move around This player — useful for positioning, narrative, or timing your own push.",
       "angles": {
         "x": {
-          "hook": "Tech move worth a screenshot: TSMC Revenue Rises 53% as AI Chip Demand Outstrips Supply\n\nNot financial advice — narrative advice.",
+          "hook": "Grab Is Said in Talks to Buy SoftBank-Backed Fintech Firm Atome\n\n3 beats for founders who actually ship.",
           "thread": [
-            "1/ Signal: TSMC Revenue Rises 53% as AI Chip Demand Outstrips Supply",
+            "1/ Signal: Grab Is Said in Talks to Buy SoftBank-Backed Fintech Firm Atome",
             "2/ Second-order: who gains distribution, who loses the default story.",
             "3/ Content play: explain the shift in plain English for your ICP — be the translator.",
             "4/ Internal: update one slide / one landing line if this touches your category.",
             "5/ Save this if you're batching content — tomorrow's \"hot take\" is today's calm brief."
           ]
         },
-        "linkedin": "Market brief for builders: TSMC Revenue Rises 53% as AI Chip Demand Outstrips Supply\n\nMarket move around This player — useful for positioning, narrative, or timing your own push.\n\nMy default response isn't a hot take — it's a translation:\nWhat changed → who cares → what we say differently on the site / in sales / on social.\n\nSource: https://www.bloomberg.com/news/articles/2026-09-10/tsmc-revenue-rises-53-as-ai-chip-demand-outstrips-supply\n\nOperators: which part of this actually touches your roadmap?",
+        "linkedin": "Market brief for builders: Grab Is Said in Talks to Buy SoftBank-Backed Fintech Firm Atome\n\nMarket move around This player — useful for positioning, narrative, or timing your own push.\n\nMy default response isn't a hot take — it's a translation:\nWhat changed → who cares → what we say differently on the site / in sales / on social.\n\nSource: https://www.bloomberg.com/news/articles/2026-09-10/grab-is-said-in-talks-to-buy-softbank-backed-fintech-firm-atome\n\nOperators: which part of this actually touches your roadmap?",
         "instagram": {
-          "reel_hook": "tech news that actually changes your caption strategy: TSMC Revenue Rises 53% as AI Chip Demand Outstrips…",
+          "reel_hook": "tech news that actually changes your caption strategy: Grab Is Said in Talks to Buy SoftBank-Backed Fintech…",
           "carousel": [
-            "hook: TSMC Revenue Rises 53% as AI Chip Demand Outstrips Supply",
+            "hook: Grab Is Said in Talks to Buy SoftBank-Backed Fintech Firm Atome",
             "don't panic-post. translate: what changed → who cares → what you say differently.",
             "cheeky reminder: hot takes age like milk. teaching posts age like… slightly better milk.",
             "numbers > vibes when you can find them. otherwise: clear POV + one CTA.",
@@ -197,6 +158,50 @@
       }
     },
     {
+      "id": "58a5d11a13c9ab59",
+      "title": "TSMC Revenue Rises 53% as AI Chip Demand Outstrips Supply",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/tsmc-revenue-rises-53-as-ai-chip-demand-outstrips-supply",
+      "source": "Bloomberg Technology",
+      "source_id": "bloomberg_tech",
+      "published": "2026-09-10T05:35:24+00:00",
+      "summary": "Taiwan Semiconductor Manufacturing Co. reported a 53.3% increase in monthly sales, with the company struggling to meet overwhelming demand from the global AI infrastructure buildout.",
+      "feed_lanes": [
+        "fundraises",
+        "tech_news"
+      ],
+      "lane": "tech_news",
+      "lane_label": "Tech news",
+      "confidence": "medium",
+      "money": null,
+      "series": null,
+      "company": null,
+      "why_it_matters": "Market move around This player — useful for positioning, narrative, or timing your own push.",
+      "angles": {
+        "x": {
+          "hook": "Tech move worth a screenshot: TSMC Revenue Rises 53% as AI Chip Demand Outstrips Supply\n\nNot financial advice — narrative advice.",
+          "thread": [
+            "1/ Signal: TSMC Revenue Rises 53% as AI Chip Demand Outstrips Supply",
+            "2/ Second-order: who gains distribution, who loses the default story.",
+            "3/ Content play: explain the shift in plain English for your ICP — be the translator.",
+            "4/ Internal: update one slide / one landing line if this touches your category.",
+            "5/ Save this if you're batching content — tomorrow's \"hot take\" is today's calm brief."
+          ]
+        },
+        "linkedin": "Market brief for builders: TSMC Revenue Rises 53% as AI Chip Demand Outstrips Supply\n\nMarket move around This player — useful for positioning, narrative, or timing your own push.\n\nMy default response isn't a hot take — it's a translation:\nWhat changed → who cares → what we say differently on the site / in sales / on social.\n\nSource: https://www.bloomberg.com/news/articles/2026-09-10/tsmc-revenue-rises-53-as-ai-chip-demand-outstrips-supply\n\nOperators: which part of this actually touches your roadmap?",
+        "instagram": {
+          "reel_hook": "tech news that actually changes your caption strategy: TSMC Revenue Rises 53% as AI Chip Demand Outstrips…",
+          "carousel": [
+            "hook: TSMC Revenue Rises 53% as AI Chip Demand Outstrips Supply",
+            "don't panic-post. translate: what changed → who cares → what you say differently.",
+            "cheeky reminder: hot takes age like milk. teaching posts age like… slightly better milk.",
+            "numbers > vibes when you can find them. otherwise: clear POV + one CTA.",
+            "comment ANGLE if you want this turned into a reel script + 5-slide pack."
+          ],
+          "voice": "@zenushkascut"
+        }
+      }
+    },
+    {
       "id": "1b37d706192f24b7",
       "title": "Windsor: Apple Unlikely to Sway Foldable Android Users",
       "url": "https://www.bloomberg.com/news/videos/2026-09-10/windsor-apple-unlikely-to-sway-foldable-android-users-video",
@@ -241,50 +246,6 @@
       }
     },
     {
-      "id": "ac6de78b860b3b09",
-      "title": "Musk’s Boring Co. Raises Capital, Valuing Firm at $23 Billion",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-10/musk-s-boring-co-raises-3b-in-series-d-funding-at-23b-value",
-      "source": "Bloomberg Technology",
-      "source_id": "bloomberg_tech",
-      "published": "2026-09-10T05:24:07+00:00",
-      "summary": "Boring Co. secured $3 billion in fresh funding backed by the United Arab Emirates and affiliated investment entities, valuing Elon Musk’s tunneling startup at $23 billion.",
-      "feed_lanes": [
-        "fundraises",
-        "tech_news"
-      ],
-      "lane": "fundraises",
-      "lane_label": "Fundraises",
-      "confidence": "high",
-      "money": "$23B",
-      "series": null,
-      "company": "Musk’s Boring Co.",
-      "why_it_matters": "Musk’s Boring Co. just locked $23B — signal for category heat + competitor pace.",
-      "angles": {
-        "x": {
-          "hook": "$23B into Musk’s Boring Co.\n\nIf you're building adjacent, this changes your narrative this week.",
-          "thread": [
-            "1/ What happened: Musk’s Boring Co. Raises Capital, Valuing Firm at $23 Billion",
-            "2/ Why it matters: capital = distribution budget + hiring velocity. Neighbors feel it in 30–60 days.",
-            "3/ Pattern: rounds like this usually follow a wedge that finally converted (usage → revenue → story).",
-            "4/ Founder move: write the \"why now\" in one line using THEIR momentum as the market proof.",
-            "5/ CTA: if you're shipping in this space, comment your wedge — I'll roast/refine it."
-          ]
-        },
-        "linkedin": "Operator note: Musk’s Boring Co raised $23B.\n\nMusk’s Boring Co. just locked $23B — signal for category heat + competitor pace.\n\nWhat I'm telling teams this week:\n1) Don't envy the round — reverse-engineer the wedge that made it fundable.\n2) Update your \"why now\" with a real external proof point (this is one).\n3) Distribution still compounds faster than feature parity.\n\nSource: Musk’s Boring Co. Raises Capital, Valuing Firm at $23 Billion\nhttps://www.bloomberg.com/news/articles/2026-09-10/musk-s-boring-co-raises-3b-in-series-d-funding-at-23b-value\n\nIf you're fundraising or competing in-category — what's your one-line wedge right now?",
-        "instagram": {
-          "reel_hook": "not me refreshing funding news like it's a sport — Musk’s Boring Co closed $23B.",
-          "carousel": [
-            "hook: Musk’s Boring Co → $23B. that's the post. everything else is commentary.",
-            "why i care: capital isn't vanity — it's ad budget, hiring, and narrative oxygen.",
-            "steal this: write your why-now using THEIR round as proof the market is moving.",
-            "founder truth: features don't raise. distribution stories do. Musk’s Boring Co. Raises Capital, Valuing Firm at $23 Billion",
-            "comment ANGLE if you want me to turn this into a week of content prompts."
-          ],
-          "voice": "@zenushkascut"
-        }
-      }
-    },
-    {
       "id": "a383f2b9c2150b0f",
       "title": "Musk’s Boring Co. Raises Capital, Valuing Firm at $23 Billion",
       "url": "https://www.bloomberg.com/news/articles/2026-09-10/musk-s-boring-co-raises-capital-valuing-firm-at-23-billion",
@@ -320,6 +281,50 @@
         "linkedin": "Operator note: Musk’s Boring Co raised $23B.\n\nMusk’s Boring Co. just locked $23B — signal for category heat + competitor pace.\n\nWhat I'm telling teams this week:\n1) Don't envy the round — reverse-engineer the wedge that made it fundable.\n2) Update your \"why now\" with a real external proof point (this is one).\n3) Distribution still compounds faster than feature parity.\n\nSource: Musk’s Boring Co. Raises Capital, Valuing Firm at $23 Billion\nhttps://www.bloomberg.com/news/articles/2026-09-10/musk-s-boring-co-raises-capital-valuing-firm-at-23-billion\n\nIf you're fundraising or competing in-category — what's your one-line wedge right now?",
         "instagram": {
           "reel_hook": "okay but Musk’s Boring Co just raised $23B and you're still \"finalizing the deck\"?",
+          "carousel": [
+            "hook: Musk’s Boring Co → $23B. that's the post. everything else is commentary.",
+            "why i care: capital isn't vanity — it's ad budget, hiring, and narrative oxygen.",
+            "steal this: write your why-now using THEIR round as proof the market is moving.",
+            "founder truth: features don't raise. distribution stories do. Musk’s Boring Co. Raises Capital, Valuing Firm at $23 Billion",
+            "comment ANGLE if you want me to turn this into a week of content prompts."
+          ],
+          "voice": "@zenushkascut"
+        }
+      }
+    },
+    {
+      "id": "ac6de78b860b3b09",
+      "title": "Musk’s Boring Co. Raises Capital, Valuing Firm at $23 Billion",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/musk-s-boring-co-raises-3b-in-series-d-funding-at-23b-value",
+      "source": "Bloomberg Technology",
+      "source_id": "bloomberg_tech",
+      "published": "2026-09-10T05:24:07+00:00",
+      "summary": "Boring Co. secured $3 billion in fresh funding backed by the United Arab Emirates and affiliated investment entities, valuing Elon Musk’s tunneling startup at $23 billion.",
+      "feed_lanes": [
+        "fundraises",
+        "tech_news"
+      ],
+      "lane": "fundraises",
+      "lane_label": "Fundraises",
+      "confidence": "high",
+      "money": "$23B",
+      "series": null,
+      "company": "Musk’s Boring Co.",
+      "why_it_matters": "Musk’s Boring Co. just locked $23B — signal for category heat + competitor pace.",
+      "angles": {
+        "x": {
+          "hook": "$23B into Musk’s Boring Co.\n\nIf you're building adjacent, this changes your narrative this week.",
+          "thread": [
+            "1/ What happened: Musk’s Boring Co. Raises Capital, Valuing Firm at $23 Billion",
+            "2/ Why it matters: capital = distribution budget + hiring velocity. Neighbors feel it in 30–60 days.",
+            "3/ Pattern: rounds like this usually follow a wedge that finally converted (usage → revenue → story).",
+            "4/ Founder move: write the \"why now\" in one line using THEIR momentum as the market proof.",
+            "5/ CTA: if you're shipping in this space, comment your wedge — I'll roast/refine it."
+          ]
+        },
+        "linkedin": "Operator note: Musk’s Boring Co raised $23B.\n\nMusk’s Boring Co. just locked $23B — signal for category heat + competitor pace.\n\nWhat I'm telling teams this week:\n1) Don't envy the round — reverse-engineer the wedge that made it fundable.\n2) Update your \"why now\" with a real external proof point (this is one).\n3) Distribution still compounds faster than feature parity.\n\nSource: Musk’s Boring Co. Raises Capital, Valuing Firm at $23 Billion\nhttps://www.bloomberg.com/news/articles/2026-09-10/musk-s-boring-co-raises-3b-in-series-d-funding-at-23b-value\n\nIf you're fundraising or competing in-category — what's your one-line wedge right now?",
+        "instagram": {
+          "reel_hook": "not me refreshing funding news like it's a sport — Musk’s Boring Co closed $23B.",
           "carousel": [
             "hook: Musk’s Boring Co → $23B. that's the post. everything else is commentary.",
             "why i care: capital isn't vanity — it's ad budget, hiring, and narrative oxygen.",
