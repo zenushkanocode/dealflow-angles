@@ -1,0 +1,197 @@
+{
+  "items": [
+    {
+      "id": "ecb8998ad4a7610f",
+      "title": "OpenAI raises $122 billion to accelerate the next phase of AI",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+      "source": "OpenAI",
+      "source_id": "seed",
+      "published": "2026-03-31T16:00:00+00:00",
+      "summary": "OpenAI closed a funding round with $122 billion in committed capital at a post-money valuation of $852 billion, anchored by Amazon, NVIDIA, and SoftBank.",
+      "feed_lanes": [
+        "fundraises",
+        "launches",
+        "tech_news"
+      ],
+      "seed": true,
+      "seed_note": "Curated from public reporting for backfill; not invented."
+    },
+    {
+      "id": "ad845107a9561095",
+      "title": "OpenAI raises $110B in one of the largest private funding rounds in history",
+      "url": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/",
+      "source": "TechCrunch",
+      "source_id": "seed",
+      "published": "2026-02-27T14:13:00+00:00",
+      "summary": "OpenAI raised $110 billion in private funding including investments from Amazon, Nvidia, and SoftBank.",
+      "feed_lanes": [
+        "fundraises",
+        "launches",
+        "tech_news"
+      ],
+      "seed": true,
+      "seed_note": "Curated from public reporting for backfill; not invented."
+    },
+    {
+      "id": "a6302e5c9f265a6d",
+      "title": "Mistral AI Boosts Valuation to \u20ac21 Billion in Samsung-Led Round",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-08/mistral-ai-raises-at-21-billion-valuation-in-samsung-led-round",
+      "source": "Bloomberg",
+      "source_id": "seed",
+      "published": "2026-09-08T10:00:00+00:00",
+      "summary": "Mistral AI raised \u20ac3 billion ($3.5 billion) at a valuation of more than \u20ac21 billion from investors led by Samsung Electronics.",
+      "feed_lanes": [
+        "fundraises",
+        "launches",
+        "tech_news"
+      ],
+      "seed": true,
+      "seed_note": "Curated from public reporting for backfill; not invented."
+    },
+    {
+      "id": "a383f2b9c2150b0f",
+      "title": "Musk\u2019s Boring Co. Raises Capital, Valuing Firm at $23 Billion",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/musk-s-boring-co-raises-capital-valuing-firm-at-23-billion",
+      "source": "Bloomberg Technology",
+      "source_id": "seed",
+      "published": "2026-09-10T05:24:07+00:00",
+      "summary": "Elon Musk's The Boring Company raised capital at a $23 billion valuation.",
+      "feed_lanes": [
+        "fundraises",
+        "launches",
+        "tech_news"
+      ],
+      "seed": true,
+      "seed_note": "Curated from public reporting for backfill; not invented."
+    },
+    {
+      "id": "092313c911455ae9",
+      "title": "Anthropic raises $65B Series H led by Dragoneer and D1 Capital",
+      "url": "https://dealroom.co/guides/global",
+      "source": "Dealroom (cited)",
+      "source_id": "seed",
+      "published": "2026-05-15T12:00:00+00:00",
+      "summary": "Anthropic Series H of $65 billion reported among largest global rounds in Q2 2026.",
+      "feed_lanes": [
+        "fundraises",
+        "launches",
+        "tech_news"
+      ],
+      "seed": true,
+      "seed_note": "Curated from public reporting for backfill; not invented."
+    },
+    {
+      "id": "99796cf7ceb70916",
+      "title": "Anduril raises $5B Series H from Thrive Capital and Andreessen Horowitz",
+      "url": "https://dealroom.co/guides/global",
+      "source": "Dealroom (cited)",
+      "source_id": "seed",
+      "published": "2026-05-20T12:00:00+00:00",
+      "summary": "Defense tech company Anduril closed a $5B Series H in May 2026.",
+      "feed_lanes": [
+        "fundraises",
+        "launches",
+        "tech_news"
+      ],
+      "seed": true,
+      "seed_note": "Curated from public reporting for backfill; not invented."
+    },
+    {
+      "id": "c91207d82500542e",
+      "title": "DeepSeek raises $7.4B early VC round with Tencent",
+      "url": "https://dealroom.co/guides/global",
+      "source": "Dealroom (cited)",
+      "source_id": "seed",
+      "published": "2026-06-15T12:00:00+00:00",
+      "summary": "DeepSeek raised $7.4B early VC funding with Tencent among backers.",
+      "feed_lanes": [
+        "fundraises",
+        "launches",
+        "tech_news"
+      ],
+      "seed": true,
+      "seed_note": "Curated from public reporting for backfill; not invented."
+    },
+    {
+      "id": "e11a616cdc49f6f3",
+      "title": "Prometheus raises $12B growth equity from BlackRock and JPMorgan",
+      "url": "https://dealroom.co/guides/global",
+      "source": "Dealroom (cited)",
+      "source_id": "seed",
+      "published": "2026-06-20T12:00:00+00:00",
+      "summary": "Prometheus closed a $12B growth equity round in June 2026.",
+      "feed_lanes": [
+        "fundraises",
+        "launches",
+        "tech_news"
+      ],
+      "seed": true,
+      "seed_note": "Curated from public reporting for backfill; not invented."
+    },
+    {
+      "id": "4ba3c1e5d39e23e3",
+      "title": "Cognition (Devin AI) raises $1B late-stage round",
+      "url": "https://dealroom.co/guides/global",
+      "source": "Dealroom (cited)",
+      "source_id": "seed",
+      "published": "2026-05-28T12:00:00+00:00",
+      "summary": "Cognition / Devin AI raised $1B late VC with General Catalyst and Lux Capital cited among backers.",
+      "feed_lanes": [
+        "fundraises",
+        "launches",
+        "tech_news"
+      ],
+      "seed": true,
+      "seed_note": "Curated from public reporting for backfill; not invented."
+    },
+    {
+      "id": "a27c9dc86afd7179",
+      "title": "TSMC Revenue Rises 53% as AI Chip Demand Outstrips Supply",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/tsmc-revenue-rises-as-ai-chip-demand-outstrips-supply",
+      "source": "Bloomberg Technology",
+      "source_id": "seed",
+      "published": "2026-09-10T05:35:24+00:00",
+      "summary": "TSMC reported revenue up 53% amid AI chip demand exceeding supply.",
+      "feed_lanes": [
+        "fundraises",
+        "launches",
+        "tech_news"
+      ],
+      "seed": true,
+      "seed_note": "Curated from public reporting for backfill; not invented."
+    },
+    {
+      "id": "ffe14474407da312",
+      "title": "Grab Is Said in Talks to Buy SoftBank-Backed Fintech Firm Atome",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/grab-said-in-talks-to-buy-softbank-backed-fintech-atome",
+      "source": "Bloomberg Technology",
+      "source_id": "seed",
+      "published": "2026-09-10T05:51:33+00:00",
+      "summary": "Grab in talks to acquire SoftBank-backed fintech Atome.",
+      "feed_lanes": [
+        "fundraises",
+        "launches",
+        "tech_news"
+      ],
+      "seed": true,
+      "seed_note": "Curated from public reporting for backfill; not invented."
+    },
+    {
+      "id": "e998e3fa6a626333",
+      "title": "Waymo raises large growth round amid robotaxi expansion",
+      "url": "https://dealroom.co/guides/global",
+      "source": "Dealroom (cited)",
+      "source_id": "seed",
+      "published": "2026-04-10T12:00:00+00:00",
+      "summary": "Waymo among largest global rounds in the last 12 months per Dealroom guide (capital for robotaxi scale-up).",
+      "feed_lanes": [
+        "fundraises",
+        "launches",
+        "tech_news"
+      ],
+      "seed": true,
+      "seed_note": "Curated from public reporting for backfill; not invented."
+    }
+  ],
+  "note": "BIG public items only; live RSS merges on top."
+}

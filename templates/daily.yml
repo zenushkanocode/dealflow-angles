@@ -1,0 +1,72 @@
+name: Daily dealflow-angles
+
+on:
+  schedule:
+    # 01:30 UTC ≈ 07:00 IST
+    - cron: "30 1 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main, feat/v1-free-oss]
+    paths:
+      - "src/**"
+      - "config/**"
+      - "data/seed_items.json"
+      - ".github/workflows/daily.yml"
+      - "requirements.txt"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-dealflow
+  cancel-in-progress: false
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline (free RSS only)
+        run: python -m src.pipeline --since-days 180 --max-per-feed 50
+
+      - name: Commit updated site + data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs data/items.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: daily RSS refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy-pages:
+    needs: build-and-publish
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

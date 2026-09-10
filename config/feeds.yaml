@@ -1,0 +1,107 @@
+# Free RSS feeds only — no paid APIs, no API keys required.
+# Gaps in coverage are labeled on the site; we never invent deals.
+
+feeds:
+  - id: techcrunch
+    name: TechCrunch
+    url: https://techcrunch.com/feed/
+    lanes: [fundraises, launches, tech_news]
+  - id: techcrunch_startups
+    name: TechCrunch Startups
+    url: https://techcrunch.com/category/startups/feed/
+    lanes: [fundraises, launches]
+  - id: venturebeat
+    name: VentureBeat
+    url: https://venturebeat.com/feed/
+    lanes: [fundraises, tech_news]
+  - id: theverge
+    name: The Verge
+    url: https://www.theverge.com/rss/index.xml
+    lanes: [launches, tech_news]
+  - id: hn_frontpage
+    name: Hacker News Frontpage
+    url: https://hnrss.org/frontpage
+    lanes: [tech_news, launches]
+  - id: hn_show
+    name: Hacker News Show HN
+    url: https://hnrss.org/show
+    lanes: [launches]
+  - id: producthunt
+    name: Product Hunt
+    url: https://www.producthunt.com/feed
+    lanes: [launches]
+  - id: bloomberg_tech
+    name: Bloomberg Technology
+    url: https://feeds.bloomberg.com/technology/news.rss
+    lanes: [fundraises, tech_news]
+  - id: arstechnica
+    name: Ars Technica
+    url: http://feeds.arstechnica.com/arstechnica/index
+    lanes: [tech_news, launches]
+
+lanes:
+  fundraises:
+    label: Fundraises
+    keywords:
+      - raised
+      - raises
+      - funding
+      - series a
+      - series b
+      - series c
+      - series d
+      - seed round
+      - pre-seed
+      - venture
+      - valuation
+      - investors
+      - led by
+      - closes
+      - financing
+      - round of
+      - million in
+      - billion valuation
+  launches:
+    label: Launches
+    keywords:
+      - launches
+      - launched
+      - unveils
+      - unveiled
+      - releases
+      - released
+      - introduces
+      - announces
+      - open source
+      - open-source
+      - ga
+      - generally available
+      - now available
+      - product hunt
+      - show hn
+      - beta
+      - debuts
+      - rolls out
+  tech_news:
+    label: Tech news
+    keywords:
+      - ai
+      - llm
+      - openai
+      - anthropic
+      - google
+      - microsoft
+      - apple
+      - amazon
+      - meta
+      - nvidia
+      - chip
+      - cloud
+      - regulation
+      - acquisition
+      - acquires
+      - ipo
+      - layoffs
+      - earnings
+      - model
+      - api
