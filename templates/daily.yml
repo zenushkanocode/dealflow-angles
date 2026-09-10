@@ -1,4 +1,4 @@
-name: Daily dealflow-angles
+name: Daily flowD
 
 on:
   schedule:
@@ -20,7 +20,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: daily-dealflow
+  group: daily-flowd
   cancel-in-progress: false
 
 jobs:

@@ -1,4 +1,4 @@
-# dealflow-angles
+# flowD
 
 **Dated content war room** for founders & marketers: free tech RSS → ready-to-post angles for **X**, **LinkedIn**, and **Instagram**.
 
@@ -47,8 +47,8 @@ not me refreshing funding news like it's a sport — Musk's Boring Co. closed $2
 ## Quick start
 
 ```bash
-git clone https://github.com/zenushkanocode/dealflow-angles.git
-cd dealflow-angles
+git clone https://github.com/zenushkanocode/flowD.git
+cd flowD
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python -m src.pipeline --since-days 180 --max-per-feed 50
@@ -85,7 +85,7 @@ Offline / no network: `python -m src.pipeline --skip-fetch` (uses `data/seed_ite
 1. Repo **Settings → Pages**
 2. Source: **GitHub Actions** (recommended), *or* Deploy from branch `main` / folder `/docs`
 3. After merge to `main`, the daily workflow builds `docs/` and deploys Pages on `main`
-4. Site URL: `https://zenushkanocode.github.io/dealflow-angles/`
+4. Site URL: `https://zenushkanocode.github.io/flowD/`
 
 Enable the Action under **Actions** tab if workflows are restricted on a new repo.
 
@@ -98,7 +98,7 @@ The initial push token **cannot create** `.github/workflows/*` (GitHub requires 
 1. GitHub → **Add file** → create `.github/workflows/daily.yml`
 2. Paste contents of `templates/daily.yml` → commit (to this branch or `main`)
 3. **Actions** tab → enable workflows if prompted
-4. Run **Daily dealflow-angles** → **Run workflow**
+4. Run **Daily flowD** → **Run workflow**
 
 Once on `main`, the workflow:
 

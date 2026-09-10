@@ -1,1 +1,1 @@
-"""dealflow-angles: free RSS → content angles."""
+"""flowD: free RSS → content angles."""
